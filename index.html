@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhishGuard | Phishing Detection</title>
+
+  <!-- Linking CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ PhishGuard</h1>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+
+    <p class="subtitle">Detect if a URL is Phishing or Safe</p>
+
+    <div class="input-box">
+      <input type="text" id="urlInput" placeholder="Enter website URL..." />
+      <button onclick="checkPhishing()">Check</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+    <div id="loader" class="loader" style="display:none;"></div>
+    
+
+    
+    
+  </div>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</body>
+</html>
